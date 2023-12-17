@@ -1,4 +1,4 @@
-package first;
+package thread.excercise;
 
 public class HiloLetraNumero implements Runnable{
 
