@@ -2,7 +2,7 @@ package thread.initialing;
 
 
 /**
- * Aunque el hilo de la clase main, quien es el que da inicio a la aplicacion sigue en pie, si otro hilo se encuentra en ejecucion
+ * Aunque el hilo de la clase main, quien es el que da inicio a la aplicacion, se detenga, si otro hilo se encuentra en ejecucion
  * la JVM seguira manteniendo el programa.
  *
  * Para evitar este inconveniente podemos setear el proceso con el metodo setDaemon(true), esto permite que al finalizar el hilo de la clase
